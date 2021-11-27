@@ -1,0 +1,11 @@
+OBJECTS 
+
+    * key-values pairs
+    * they allow constant time access => search, access, delete items
+    * thier methos usually take O(n) time to execute: 
+
+
+ARRAYS
+    * ORDERED collection of data
+    * constant time to acces items
+    * insertion and removal of new items in the array might be inefficient 
