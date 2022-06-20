@@ -1,0 +1,4 @@
+Common mistakes
+    *have a base case with a return statement
+    *make sure we make recursive call by calling with lower values that go
+    down towards the base case

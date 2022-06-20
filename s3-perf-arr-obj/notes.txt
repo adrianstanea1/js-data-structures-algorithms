@@ -3,9 +3,32 @@ OBJECTS
     * key-values pairs
     * they allow constant time access => search, access, delete items
     * thier methos usually take O(n) time to execute: 
+    * they are fast, but they DON'T ensure a certain ORDER 
+
+        Object.keys -   O(N)
+        Object.values -   O(N)
+        Object.entries -   O(N)
+        hasOwnProperty -   O(1)
 
 
 ARRAYS
     * ORDERED collection of data
     * constant time to acces items
     * insertion and removal of new items in the array might be inefficient 
+    * when we insert/remove at the beggining we have to moove all the previos elements => O(n)
+    * when we insert/remove at the end we can do so without extra work => O(1)
+
+        --At the end
+        push -   O(1)
+        pop -   O(1)
+        --At the beggining
+        shift -   O(N)
+        unshift -   O(N)
+        --Here we return copies of the original array, hence we take linear time to copy all the items from thep previous arr
+        concat -   O(N)
+        slice -   O(N)
+        splice -   O(N)
+        
+        sort -   O(N * log N)
+        ==They do something to each element of the original arr
+        forEach/map/filter/reduce/etc. -   O(N)

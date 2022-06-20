@@ -1,0 +1,15 @@
+USUAL PATTERNS
+    Frequency Counter => frequencyCounter, isAnagram
+    Multiple Pointers => sumZero, countUniqueValues
+    Sliding Window => maxSubarray, 
+    Divide and Conquer => we devide the set of data into smaller chunks and then repeat a process with said subset
+    Dynamic Programming
+    Greedy Algorithms
+    Backtracking
+    Many more!
+
+
+When i want to retreive the data from a key that s not defined in an object i get undefined
+hence i can shortcircuit with an || statement
+obj = { a: 4 };
+console.log(obj["a"] || "Wtf");
