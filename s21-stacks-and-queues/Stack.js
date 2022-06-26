@@ -64,21 +64,25 @@ class Stack {
     }
 }
 
-const stack = new Stack();
+module.exports - Stack;
 
-// 1 -> push operation
-stack.push(5);
-stack.push(10);
-stack.push(15);
+// TESTING FUNCTIONALLITY
 
-console.log("Operations after PUSH");
-stack.print();
+// const stack = new Stack();
 
-// 2 -> pop operation
-console.log("Operations after POP");
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.pop());
+// // 1 -> push operation
+// stack.push(5);
+// stack.push(10);
+// stack.push(15);
 
-stack.print();
+// console.log("Operations after PUSH");
+// stack.print();
+
+// // 2 -> pop operation
+// console.log("Operations after POP");
+// console.log(stack.pop());
+// console.log(stack.pop());
+// console.log(stack.pop());
+// console.log(stack.pop());
+
+// stack.print();
